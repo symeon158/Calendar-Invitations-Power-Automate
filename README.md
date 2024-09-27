@@ -42,7 +42,7 @@ Below is a flow diagram of the Microsoft Power Automate process that handles the
 4. **Condition Check**: Evaluates whether an event should be created based on a condition.
 5. **Create Event (V4)**: Creates a calendar event with the details provided.
 
-![Flow Diagram]("C:\Users\sy.papadopoulos\OneDrive - Alumil S.A\Pictures\Screenshots\Calendar Invites.png")
+![Calendar Invites](https://github.com/user-attachments/assets/73e1116d-aebf-4f43-9bee-66fb639460fc)
 
 ---
 
