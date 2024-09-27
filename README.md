@@ -78,7 +78,9 @@ function main(workbook: ExcelScript.Workbook) {
     httpRequest.send(null);
 }
 
-## Setup Instructions
+---
+
+Setup Instructions
 Prerequisites
 Microsoft Power Automate (Flow): To create the automation flow.
 Microsoft Excel with Office Scripts enabled: For running the script that triggers the flow.
@@ -98,7 +100,7 @@ Configure the Office Script:
 
 Insert the Office Script in Excel to automate the flow trigger.
 Use the script button to initiate the process whenever necessary.
-## Usage
+Usage
 Open the Excel workbook containing the induction training data.
 Click the button linked to the Office Script to trigger the Power Automate flow.
 The flow will loop through each row of the Excel table, creating a calendar event for each training session that meets the specified condition.
