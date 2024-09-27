@@ -12,11 +12,12 @@ This project automates the process of creating and sending calendar invitations 
 2. [Features](#features)
 3. [Flow Diagram](#flow-diagram)
 4. [Power Automate Flow Details](#power-automate-flow-details)
-5. [Office Script for Excel](#office-script-for-excel)
 6. [Setup Instructions](#setup-instructions)
 7. [Usage](#usage)
 8. [Screenshots](#screenshots)
 9. [License](#license)
+10. [Office Script for Excel](#office-script-for-excel)
+    
 
 ---
 
@@ -65,22 +66,7 @@ The flow uses the following steps to automate the calendar invitation process:
    - **Required Attendees**: Populates with emails from the **Email** column.
 
 ---
-
-## Office Script for Excel
-
-The following Office Script enables the manual triggering of the flow from within the Excel workbook:
-
-```typescript
-function main(workbook: ExcelScript.Workbook) {
-    let httpRequest = new XMLHttpRequest();
-    let myPath = workbook.getActiveWorksheet().getRange("AB1").getText();
-    httpRequest.open("GET", myPath, false);
-    httpRequest.send(null);
-}
-
----
-
-Setup Instructions
+## Setup Instructions
 Prerequisites
 Microsoft Power Automate (Flow): To create the automation flow.
 Microsoft Excel with Office Scripts enabled: For running the script that triggers the flow.
@@ -120,4 +106,19 @@ Time Zone: Configured to the appropriate region (e.g., (UTC+02:00) Athens, Bucha
 Required Attendees: Automatically populates attendees' emails from the Excel data.
 Calendar Event Body Template
 The body of the invitation is formatted to include the relevant details for the induction session.
+## Office Script for Excel
+
+The following Office Script enables the manual triggering of the flow from within the Excel workbook:
+
+```typescript
+function main(workbook: ExcelScript.Workbook) {
+    let httpRequest = new XMLHttpRequest();
+    let myPath = workbook.getActiveWorksheet().getRange("AB1").getText();
+    httpRequest.open("GET", myPath, false);
+    httpRequest.send(null);
+}
+
+---
+
+
 
