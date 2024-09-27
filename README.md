@@ -1,4 +1,5 @@
-# Automate Induction Training
+# Power Automate Calendar Invitations. Create and Sends automatically Calendar Invitations with dynamic fields!
+
 
 ## Overview
 
