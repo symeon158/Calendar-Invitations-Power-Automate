@@ -31,6 +31,8 @@ This project automates the process of creating and sending calendar invitations 
 - **Manual Trigger Option**: Easily initiate the process through an Office Script button inside Excel.
 - **Predefined Categories & Location**: Add categories and locations to events for easy calendar management.
 
+![outlool calendarpng](https://github.com/user-attachments/assets/5f73e49d-bfb3-4a7b-b214-f6140b4c24b2)
+
 ---
 
 ## Advantages
