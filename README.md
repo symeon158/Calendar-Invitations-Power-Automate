@@ -86,11 +86,11 @@ Configure the Office Script:
 
 Insert the Office Script in Excel to automate the flow trigger.
 Use the script button to initiate the process whenever necessary.
-Usage
+## Usage
 Open the Excel workbook containing the induction training data.
 Click the button linked to the Office Script to trigger the Power Automate flow.
 The flow will loop through each row of the Excel table, creating a calendar event for each training session that meets the specified condition.
-Screenshots
+## Screenshots
 Power Automate Flow Structure
 This flow represents the logic used to automate the calendar invitation creation process. The process is straightforward and ensures that each row in the Excel table is evaluated correctly.
 
@@ -106,6 +106,7 @@ Time Zone: Configured to the appropriate region (e.g., (UTC+02:00) Athens, Bucha
 Required Attendees: Automatically populates attendees' emails from the Excel data.
 Calendar Event Body Template
 The body of the invitation is formatted to include the relevant details for the induction session.
+
 ## Office Script for Excel
 
 The following Office Script enables the manual triggering of the flow from within the Excel workbook:
